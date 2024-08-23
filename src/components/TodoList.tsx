@@ -105,7 +105,7 @@ const TodoList: React.FC<TodoListProps> = ({
                       <span
                         className={`w-[2rem] h-[2rem] xl:w-[2.4rem] xl:h-[2.4rem] inline-block rounded-full border hover:cursor-pointer ${
                           dark ? "border-[#393a4b]" : "border-[#e3e4f1]"
-                        } peer-checked:bg-[url('./images/icon-check.svg'),linear-gradient(to_bottom,#5df,#c058f3)] peer-checked:bg-center peer-checked:bg-no-repeat peer-checked:border-none`}
+                        } peer-checked:bg-[url('/images/icon-check.svg'),linear-gradient(to_bottom,#5df,#c058f3)] peer-checked:bg-center peer-checked:bg-no-repeat peer-checked:border-none`}
                       ></span>
                     </label>
                     <p
